@@ -32,6 +32,6 @@ extension ViewController: UICollectionViewDelegate, UICollectionViewDataSource {
         let item = arrayRepositories[indexPath.item]
         cell.createCell(item: item)
         cell.layer.cornerRadius = 6
-                return cell
+        return cell
     }
 }

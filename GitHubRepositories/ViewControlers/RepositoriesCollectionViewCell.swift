@@ -8,9 +8,7 @@
 import UIKit
 
 class RepositoriesCollectionViewCell: UICollectionViewCell {
-    
-    
-    
+
     @IBOutlet weak var cell: UIView!
     @IBOutlet weak var imageView: UIImageView! {
         didSet {
@@ -28,7 +26,6 @@ class RepositoriesCollectionViewCell: UICollectionViewCell {
             languageImageView.layer.cornerRadius = 12
         }
     }
-    
     @IBOutlet weak var forkImage: UIImageView!
     @IBOutlet weak var forkLabel: UILabel!
     @IBOutlet weak var starsImage: UIImageView!
